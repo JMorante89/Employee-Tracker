@@ -9,11 +9,13 @@
     "scripts": {
         "start": "node index.js"
     },
-
     "dependencies": {
         "console.table": "^0.10.0",
         "dotenv": "^16.3.1",
         "inquirer": "^8.2.4",
-        "mysql2": "^3.6.0"
+        "mysql2": "^3.6.2"
+    },
+    "devDependencies": {
+        "nodemon": "^3.0.1"
     }
 }

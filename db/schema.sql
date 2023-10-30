@@ -33,27 +33,27 @@ ALTER TABLE employee
     ON DELETE SET NULL;
 
 INSERT INTO department(name) VALUES
-    ("Conjuration"),
-    ("Enchantment"),
-    ("Spells"),
-    ("Potions"),
-    ("Magical Creatures");
+    ("Human Resources"),
+    ("Sales"),
+    ("Marketing"),
+    ("Information Technology"),
+    ("Finance");
 
 INSERT INTO role(title, salary, department_id) VALUES
-    ("Necromancer", 65, 1),
-    ("Grand Summoner", 100, 1),
-    ("Enchantress", 80, 2),
-    ("Blacksmith", 55, 2),
-    ("Scroll Scribe", 50, 2),
-    ("Wizard", 75, 3),
-    ("Spellcrafter", 99, 3),
-    ("Wandsmith", 83, 3),
-    ("Brewer", 65, 4),
-    ("Chemist", 77, 4),
-    ("Potion Tester", 34, 4),
-    ("Familiar Trainer", 47, 5),
-    ("Riding Coach", 42, 5),
-    ("Vet", 89, 5);
+    ("Sales Representative", 65, 1),
+    ("HR Manager", 100, 1),
+    ("Marketing Manager", 80, 2),
+    ("Financial Analyst", 55, 2),
+    ("IT Support Specialist", 50, 2),
+    ("Accountant", 75, 3),
+    ("Customer Service Representative", 99, 3),
+    ("Project Manager", 83, 3),
+    ("Software Developer", 165, 4),
+    ("Operations Manager", 77, 4),
+    ("Marketing Coordinator", 34, 4),
+    ("Network Administrator", 47, 5),
+    ("Payroll Specialist", 42, 5),
+    ("Financial Controller", 89, 5);
 
 INSERT INTO employee(first_name, last_name, role_id, manager_id) VALUES
 	("Lianne", "Coffee", 1, NULL),

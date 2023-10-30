@@ -14,7 +14,8 @@ My personal software developer website serves as a comprehensive platform highli
 
 ## Installation💻
 The provided URL will redirect users to a user-friendly website, obviating the need for any user-initiated installations. This application supports most browsers and mobile devices. The website is hosted by Netlify.com and the link below will take you to a live demo.
-- [Git Repository Link](https://github.com/JMorante89/Employee-Tracker)
+- [Source Code Link](https://github.com/JMorante89/Employee-Tracker)
+- [Video Tutorial Link](https://github.com/JMorante89/Employee-Tracker)
 
 ## Usage👨‍💻
 ### The homepage offers immediate access to the whole site by choosing from right of the Navigation bar.  You may also click on the purple "Contact Me" button to easily send me an email.  
