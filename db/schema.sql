@@ -40,18 +40,18 @@ INSERT INTO department(name) VALUES
     ("Finance");
 
 INSERT INTO role(title, salary, department_id) VALUES
-    ("Sales Representative", 65, 1),
+    ("Sales Representative", 65, 2),
     ("HR Manager", 100, 1),
-    ("Marketing Manager", 80, 2),
-    ("Financial Analyst", 55, 2),
-    ("IT Support Specialist", 50, 2),
-    ("Accountant", 75, 3),
-    ("Customer Service Representative", 99, 3),
+    ("Marketing Manager", 80, 3),
+    ("Financial Analyst", 55, 5),
+    ("IT Support Specialist", 50, 4),
+    ("Accountant", 75, 5),
+    ("Relations Representative", 99, 2),
     ("Project Manager", 83, 3),
     ("Software Developer", 165, 4),
     ("Operations Manager", 77, 4),
-    ("Marketing Coordinator", 34, 4),
-    ("Network Administrator", 47, 5),
+    ("Marketing Coordinator", 34, 3),
+    ("Network Administrator", 47, 4),
     ("Payroll Specialist", 42, 5),
     ("Financial Controller", 89, 5);
 
